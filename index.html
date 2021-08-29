@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Shopping bag</title>
+</head>
+<body>
+    <div class="container">
+
+        <h1>Shopping Bag</h1>
+
+        <hr id="hr"> 
+        <div class="box" id="box"> 
+            <img class="jpg1"   src="adidas.jpg">
+            <img id="like1"  src="like.png" onclick="btnchange1()">
+            <img class="png1" id="png1" src="delete.png" onclick="deldiv1 ()">
+            <div class="m-box">
+                <p>Company: ADIDAS</p>
+                <p>Man Shoes</p>
+                <p>color: Black</p>
+                <p>Price: 120 $</p>
+            </div>
+            <div id="salesm">-</div>
+            <div id="salesnum">1</div>
+            <div id="salesp">+</div>
+            <div id="price"> 120 $</div>
+        </div>
+
+        <hr id="hr1">
+        <div class="box1" id="box1">
+            <img class="jpg2"  src="nike.jpg">
+            <img id="like2"  src="like.png" onclick="btnchange2()">
+            <img class="png2" id="png2" src="delete.png" onclick='deldiv2 ()'>
+            <div class="m-box">
+                <p>Company :  NIKE </p>
+                <p>Woman Shoes</p>
+                <p>Color: Pink</p>
+                <p>Price: 150 $</p>
+            </div>
+            <div id="salesm1">-</div>
+            <div id="salesnum1">1</div>
+            <div id="salesp1">+</div>
+            <div id="price1">150 $</div>
+        </div>
+
+        <hr id="hr2">
+        <div class="box2" id="box2">
+            <img class="jpg3"  src="boys.jpg">
+            <img id="like3"  src="like.png" onclick="btnchange3()">
+            <img class="png3" id="png3" src="delete.png" onclick="deldiv3 ()">
+
+            <div class="m-box">
+                <p>Company  :  KIND </p>
+                <p>Boys Shoes</p>
+                <p>Color: Blue</p>
+                <p>Price: 100 $</p>
+            </div>
+            <div id="salesm2">-</div>
+            <div id="salesnum2">1</div>
+            <div id="salesp2">+</div>
+            <div id="price2">100 $</div>
+        </div>      
+        
+    </div>
+    <script src="script.js"></script>    
+</body>
+</html>
